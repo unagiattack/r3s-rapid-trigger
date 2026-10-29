@@ -1,0 +1,22 @@
+name: Feature request
+description: Suggest a focused change to the app, documentation, or supported behavior.
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What would this help you do?
+      description: Describe the task or input behavior, including the current limitation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the expected result. New model support needs separate firmware, memory-layout, hardware, and recovery evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Relevant context
+      description: Include model and settings where useful. Do not attach firmware, serial numbers, or private paths.

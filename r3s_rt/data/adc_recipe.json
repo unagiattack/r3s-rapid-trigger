@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "sourceReader": "0x08016338",
+  "description": "Derive these 16-bit words locally from user-provided stock; clear mask bits, then set replacement register bits. No stock opcodes are stored here.",
+  "words": [
+    {
+      "address": "0x0801fe14",
+      "source": "0x08016350",
+      "clearMask": 1792,
+      "setBits": 1792
+    },
+    {
+      "address": "0x0801fe16",
+      "source": "0x0801634e",
+      "clearMask": 56,
+      "setBits": 32
+    },
+    {
+      "address": "0x0801fe18",
+      "source": "0x08016352",
+      "clearMask": 56,
+      "setBits": 56
+    },
+    {
+      "address": "0x0801fe1a",
+      "source": "0x08016358",
+      "clearMask": 56,
+      "setBits": 32
+    },
+    {
+      "address": "0x0801fe1c",
+      "source": "0x0801635a",
+      "clearMask": 0,
+      "setBits": 0
+    },
+    {
+      "address": "0x0801fe28",
+      "source": "0x08016366",
+      "clearMask": 56,
+      "setBits": 32
+    },
+    {
+      "address": "0x0801fe2a",
+      "source": "0x0801636a",
+      "clearMask": 56,
+      "setBits": 56
+    },
+    {
+      "address": "0x0801fe2c",
+      "source": "0x08016370",
+      "clearMask": 56,
+      "setBits": 32
+    },
+    {
+      "address": "0x0801fe2e",
+      "source": "0x08016390",
+      "clearMask": 56,
+      "setBits": 32
+    },
+    {
+      "address": "0x0801fe30",
+      "source": "0x08016394",
+      "clearMask": 56,
+      "setBits": 56
+    },
+    {
+      "address": "0x0801fe32",
+      "source": "0x0801639a",
+      "clearMask": 56,
+      "setBits": 32
+    },
+    {
+      "address": "0x0801fe34",
+      "source": "0x0801639c",
+      "clearMask": 0,
+      "setBits": 0
+    },
+    {
+      "address": "0x0801fe3c",
+      "source": "0x0801637e",
+      "clearMask": 0,
+      "setBits": 0
+    },
+    {
+      "address": "0x0801fe3e",
+      "source": "0x08016380",
+      "clearMask": 0,
+      "setBits": 0
+    },
+    {
+      "address": "0x0801fe40",
+      "source": "0x08016382",
+      "clearMask": 0,
+      "setBits": 0
+    },
+    {
+      "address": "0x0801fe42",
+      "source": "0x08016384",
+      "clearMask": 0,
+      "setBits": 0
+    },
+    {
+      "address": "0x0801fe44",
+      "source": "0x08016386",
+      "clearMask": 0,
+      "setBits": 0
+    },
+    {
+      "address": "0x0801fe46",
+      "source": "0x08016388",
+      "clearMask": 0,
+      "setBits": 0
+    },
+    {
+      "address": "0x0801fe48",
+      "source": "0x0801638a",
+      "clearMask": 0,
+      "setBits": 0
+    },
+    {
+      "address": "0x0801fe50",
+      "source": "0x080163a4",
+      "clearMask": 56,
+      "setBits": 32
+    },
+    {
+      "address": "0x0801fe52",
+      "source": "0x080163a6",
+      "clearMask": 0,
+      "setBits": 0
+    }
+  ]
+}

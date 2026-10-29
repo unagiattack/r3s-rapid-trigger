@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "r3s-rapid-trigger"
+version = "0.1.0"
+description = "Unofficial local Rapid Trigger firmware patcher and settings app for one verified REALFORCE R3S firmware"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "unagiattack"}]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Win32 (MS Windows)",
+  "Programming Language :: Python :: 3",
+  "Topic :: System :: Hardware :: Hardware Drivers",
+]
+
+[project.scripts]
+r3s-rt = "r3s_rt.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["r3s_rt*"]
+
+[tool.setuptools.package-data]
+r3s_rt = ["data/*.json"]
